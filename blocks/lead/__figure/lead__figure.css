@@ -1,0 +1,32 @@
+.lead__figure {
+  margin: 56 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1152px) {
+  .lead__figure {
+    max-width: 928px;
+    max-height: 580px;
+    margin: 56px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .lead__figure {
+    max-width: 768px;
+    max-height: 480px;
+    margin: 56px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .lead__figure {
+    max-width: 320px;
+    max-height: 200px;
+    margin: 40px 0 0 0;
+  }
+}
