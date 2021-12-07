@@ -1,29 +1,32 @@
-.lead {
-  max-width: 984px;
+.cover {
+  max-width: 1184px;
   width: 100%;
-  margin: 0 100px;
+  max-height: 740px;
+  height: 100%;
+  margin: 2px 0 0 0;
+  padding: 0;
+  position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 @media screen and (max-width: 1152px) {
-  .lead {
-    max-width: 928px;
-    margin: 0;
+  .cover {
+    max-height: 640px;
   }
 }
 
 @media screen and (max-width: 896px) {
-  .lead {
+  .cover {
     max-width: 768px;
-    margin: 0 auto;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .lead {
+  .cover {
     max-width: 320px;
-    margin: 0 auto;
   }
 }

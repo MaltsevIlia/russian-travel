@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 425px) {
   .lead__figure {
     max-width: 320px;
     max-height: 200px;

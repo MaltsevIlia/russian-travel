@@ -1,0 +1,9 @@
+.places__list {
+  list-style-type: none;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  gap: 80px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, auto);
+}

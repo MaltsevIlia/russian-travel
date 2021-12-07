@@ -1,0 +1,14 @@
+.places__url-heading {
+  display: inline-block;
+  margin: 0 0 12px 0;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 425px) {
+  .places__url-heading {
+    margin: 0 0 12px 0;
+  }
+}

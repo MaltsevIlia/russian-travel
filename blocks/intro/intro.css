@@ -1,5 +1,35 @@
 .intro {
-  margin: 92px auto 0 auto;
+  margin: 0 auto 0 100px;
   display: flex;
   flex-direction: column;
+  max-width: 690px;
+  width: 100%;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1152px) {
+  .intro {
+    margin: 0 auto 0 48px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .intro {
+    max-width: 720px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .intro {
+    padding: 22px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    max-width: 288px;
+    padding: 22px 0 0 0;
+  }
 }
