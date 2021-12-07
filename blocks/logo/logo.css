@@ -7,7 +7,7 @@
   object-fit: contain;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 425px) {
   .logo {
     max-width: 142px;
     max-height: 42px;
