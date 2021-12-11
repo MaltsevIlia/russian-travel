@@ -1,7 +1,8 @@
 .intro__title {
   font-size: 54px;
   line-height: 58px;
-  font-family: 'Inter Black', 'Arial', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 900;
   display: inline-block;
   margin: 0;
   text-align: left;

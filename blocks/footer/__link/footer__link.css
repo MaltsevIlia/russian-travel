@@ -7,6 +7,10 @@
   font-weight: normal;
 }
 
+.footer__link:hover {
+  opacity: .8;
+}
+
 @media screen and (max-width: 425px) {
   .footer__link {
     font-size: 24px;

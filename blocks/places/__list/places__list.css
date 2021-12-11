@@ -7,3 +7,15 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, auto);
 }
+
+@media screen and (max-width: 896px) {
+  .places__list {
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places__list {
+    gap: 50px;
+  }
+}
